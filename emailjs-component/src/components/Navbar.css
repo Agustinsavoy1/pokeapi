@@ -1,0 +1,31 @@
+nav {
+  background: transparent;
+  z-index: 999;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+nav .social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+nav .logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+nav .logo-container img {
+  width: 120px;
+}
